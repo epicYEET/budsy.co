@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Budsy Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app-container">
+<h1>Budsy Demo</h1>
+
+<!-- Your note -->
+<p>This is my Budsy note.</p>
+
+<!-- Review Section -->
+<div id="review-section">
+<input type="text" id="new-review" placeholder="Type a review...">
+<button id="submit-review">Submit</button>
+<ul id="review-list"></ul>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
