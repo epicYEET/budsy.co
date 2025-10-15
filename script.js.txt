@@ -1,15 +1,1 @@
-const submitButton = document.getElementById('submit-review');
-const reviewList = document.getElementById('review-list');
 
-submitButton.addEventListener('click', () => {
-const newReview = document.getElementById('new-review').value.trim();
-if (!newReview) return;
-
-// Create review element
-const li = document.createElement('li');
-li.textContent = newReview + ' (AI reply goes here)'; // placeholder for AI reply
-reviewList.appendChild(li);
-
-// Clear input
-document.getElementById('new-review').value = '';
-});
